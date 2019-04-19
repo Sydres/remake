@@ -1,1 +1,1 @@
-Full cred till skaparna över orginella filerna. Detta är bara en remake.
+Full cred till skaparna över dom orginella filerna. Detta är bara en remake.
