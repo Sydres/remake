@@ -1,1 +1,1 @@
-Massa omgjorda scripts.
+no stop
