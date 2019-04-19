@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito|Oswald|Poppins|Rubik|Ubuntu');
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.backdrop
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgb(23, 23, 27);
+    background-size: 100% 100%;
+}
+
+.bottom
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#gradient
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+    height: 25%;
+
+}
+
+}
+
+h1, h2 {
+  position: relative;
+  background: transparent;
+  z-index: 0;
+}
+/* add a single stroke */
+h1:before, h2:before {
+  content: attr(title);
+  position: absolute;
+  -webkit-text-stroke: 0.1em #000;
+  left: 0;
+  z-index: -1;
+}
+
+.servername {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 90px;
+
+    font-weight: 800;
+    color: rgb(209, 209, 209);
+
+    position: relative;
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top: 340px;
+}
+
+.letni
+{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 10%;
+
+    z-index: 5;
+
+    color: #fff;
+}
+
+.letni p
+{
+
+    margin-left: 3px;
+
+    margin-top: 0px;
+}
+
+.letni h2, .letni h3
+{
+    font-family: BankGothic;
+
+    text-transform: uppercase;
+
+    margin: 0px;
+
+    display: inline-block;
+}
+
+.top
+{
+    color: #fff;
+
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    right: 5%;
+}
+
+.top h1
+{
+
+    margin: 0px;
+}
+
+.top h2
+{
+
+    margin: 0px;
+
+    color: rgb(209, 209, 209);
+    border-radius: 5px;
+}
+
+.loadbar
+{
+    width: 37%;
+    background-color: rgba(104, 18, 18, 0);
+    height: 15px;
+
+    margin: 0 auto;
+    position: absolute;
+
+    margin-top: 400px;
+    margin-bottom: 400px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    display: block;
+}
+
+.thingy
+{
+    width: 10%;
+    background-color: rgb(209, 209, 209);
+    height: 20px;
+
+    position: absolute;
+    left: 10%;
+}

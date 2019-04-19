@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+html {
+	color: #fff;
+}
+
+#wrap {
+	width: 798px;
+	min-height: 325px;
+	margin-top: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(22, 20, 27);
+	border: 3px solid rgb(27, 25, 34);
+    color: rgba(255, 255, 255, 0.9);
+	animation: travel 1s;
+}
+
+@keyframes travel {
+    from {
+		opacity: 0;
+        transform: translateY(150px);
+    }
+
+    to { 
+		transform: translateY(0px);
+    }
+}
+
+table {
+	text-align: left;
+}
+
+th {
+	padding-left: 25px;
+}
+
+td {
+	text-align: center; 
+}
+
+th {
+	padding-top: 10px;
+	height: 40px;
+}
+
+tr {
+	font-family: Roboto;
+	border: 2px solid rgba(27, 25, 34, 0.548);
+	border-radius: 5px;
+
+	width: 260px;
+	height: 50px;
+
+	display: block;
+	position: relative;
+
+	line-height: 47px;
+	color: rgba(255, 255, 255, 0.815);
+	
+	margin: 1px;
+
+	text-align: center;
+	float: left;
+	font-size: 15px;
+	text-indent: 20px;
+
+	font-family: Roboto;
+}
+
+.player-id {
+	font-size: 25px;
+}
+
+.player-name {
+	margin-left: 20px;
+	margin-top: -15px;
+}
+
+.heading {
+	text-align: left;
+	text-indent: 20px;
+	font-family: Roboto;
+    color: rgb(233, 233, 233);
+	background:  rgb(22, 20, 27);
+	font-weight: 400;
+	height: 55px;
+	line-height: 57px;
+	width: 798px;
+	border-bottom: 2px solid rgb(27, 25, 34);
+}
+
+.playerbody {
+	text-align: center; 
+}
+
+.strongest {
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-size: 23px;
+}
+
+.title-hr {
+	border: none;
+	height: 2px;
+	border-top: 2px solid rgb(27, 25, 34);
+}
+
+.player-list-name {
+	font-size: 15px;
+	margin-left: 5px;
+    color: rgb(190, 190, 190);
+}

@@ -1,0 +1,277 @@
+/* 
+
+    För att ändra textens position ändrar du följande på det item.
+
+    =================
+    top: 0px;
+    right: 0px;
+    =================
+
+
+    Bild med konstig position på text. Lösning:
+    
+Från: 
+    #water::after {
+        content: "Vatten";
+        font-size: 9px;
+        position: relative;
+
+        top: 60px;
+        right: 7px;
+    }
+
+Till:
+    #water::after {
+        content: "Vatten";
+        font-size: 9px;
+        position: relative;
+
+        top: 60px;
+        right: 15px;
+    }
+
+    Hoppas du fattar hajdo
+
+*/
+
+
+
+
+
+#water {
+    background: url(https://freeiconshop.com/wp-content/uploads/edd/water-bottle-outline-filled.png) no-repeat;
+    background-size: 50%;
+}
+
+#water::after {
+    content: "Vatten";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+
+
+#iphone {
+    background: url(https://images.vexels.com/media/users/3/128088/isolated/preview/0353dfacfd1c8805016146276c708b74-iphone-flat-icon-by-vexels.png) no-repeat;
+    background-size: 50%;
+}
+
+#iphone::after {
+    content: "Telefon";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+
+
+#lockpick {
+    background: url(https://gamepedia.cursecdn.com/dayz_gamepedia/a/ac/Lockpick.png) no-repeat;
+    background-size: 50%;
+}
+
+#lockpick::after {
+    content: "Lockpick";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+
+#bread {
+    background: url(https://cdn.pixabay.com/photo/2012/04/03/14/51/bread-25206_960_720.png) no-repeat;
+    background-size: 50%;
+}
+
+#bread::after {
+    content: "Smörgås";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 15px;
+}
+
+#bandage {
+    background: url(http://www.myiconfinder.com/uploads/iconsets/a3a5aafbbbf1872e93d4c80152b43607-bandaid.png) no-repeat;
+    background-size: 50%;
+}
+
+#bandage::after {
+    content: "Bandage";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+#blindfold {
+    background: url(https://www.shareicon.net/download/2016/08/26/820270_sleep_512x512.png) no-repeat;
+    background-size: 50%;
+}
+
+#blindfold::after {
+    content: "Ögonbindel";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+#cannabis {
+    background: url(https://image.flaticon.com/icons/png/512/534/534075.png) no-repeat;
+    background-size: 50%;
+}
+
+#cannabis::after {
+    content: "Marijuana";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+#carokit {
+    background: url(https://cdn3.iconfinder.com/data/icons/automobile-parts-and-repair-car-services-1/50/33-512.png) no-repeat;
+    background-size: 50%;
+}
+
+#carokit::after {
+    content: "Reperationskit";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+#carotool {
+    background: url(https://requestreduce.org/images/car-tools-clipart-8.png) no-repeat;
+    background-size: 50%;
+}
+
+#carotool::after {
+    content: "Reperationssats";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+
+#creditcard {
+    background: url(https://freeiconshop.com/wp-content/uploads/edd/creditcard-outline-filled.png) no-repeat;
+    background-size: 50%;
+}
+
+#creditcard::after {
+    content: "Kreditkort";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+#diamond {
+    background: url(https://images.vexels.com/media/users/3/151224/isolated/preview/58003c389b57ec8182abf593984eaa82-slot-diamond-icon-by-vexels.png) no-repeat;
+    background-size: 50%;
+}
+
+#diamond::after {
+    content: "Diamant";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+#gold {
+    background: url(https://www.freepngimg.com/thumb/gold/8-2-gold-transparent.png) no-repeat;
+    background-size: 50%;
+}
+
+#gold::after {
+    content: "Guld";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+
+#handcuffs {
+    background: url(https://image.flaticon.com/icons/png/512/238/238566.png) no-repeat;
+    background-size: 50%;
+}
+
+#handcuffs::after {
+    content: "Handboja";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+
+#iron {
+    background: url(http://www.sclance.com/pngs/iron-png/iron_png_719204.png) no-repeat;
+    background-size: 50%;
+}
+
+#iron::after {
+    content: "Järn";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+#key {
+    background: url(https://freeiconshop.com/wp-content/uploads/edd/key-outline-filled.png) no-repeat;
+    background-size: 50%;
+}
+
+#key::after {
+    content: "Handboja nyckel";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+
+#leather {
+    background: url(https://www.gamadigital.com.co/wp-content/uploads/2018/07/TEXTURA-CUERO.png) no-repeat;
+    background-size: 50%;
+}
+
+#leather::after {
+    content: "Läder";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+#policecard {
+    background: url(https://cdn2.iconfinder.com/data/icons/police-filledoutline/64/police_identification-police_card-files_and_folders-id_card-authority-sheriff-identification-police-512.png) no-repeat;
+    background-size: 50%;
+}
+
+#policecard::after {
+    content: "Passerkort";
+    font-size: 9px;
+    position: relative;
+    top: 60px;
+    right: 7px;
+}
+
+
+
+
+
+
+
+
