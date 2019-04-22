@@ -1,1 +1,2 @@
-Full cred till skaparna över dom orginella filerna. Detta är bara en remake.
+A lot of appreciation for the creators of the original files. This is just a remake.
+
